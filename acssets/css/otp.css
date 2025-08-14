@@ -348,3 +348,15 @@
             width: 1.25rem;
             height: 1.25rem;
         }
+                     /* Mặc định ẩn dần */
+body {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* Khi load xong thì hiện ra */
+body.show-page {
+    opacity: 1;
+    transform: translateY(0);
+}
