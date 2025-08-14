@@ -423,7 +423,7 @@
         .hero-card-title {
          display: grid;
             grid-template-columns: repeat(3, auto); /* 3 cột */
-            gap: 0 20px; /* khoảng cách giữa các cột */
+
             color: white;
             font-size: 2rem;
             font-weight: 600;
