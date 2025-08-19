@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/acssets/css/otp.css">
+    <link rel="icon" type="image/png" href="../acssets/images/images page/1fa838f533b627a8a59d955017825c650bcf3e36.png">
+    <title>OTP</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Left side - Cityscape background -->
+        <div class="left-side">
+            <div class="cityscape-bg"></div>
+            <img
+                src="../acssets/images/images page/b689a27c1867c425abbc387429ec6db5f8404067.png"
+                alt="San Francisco cityscape"
+                class="cityscape-img"
+            />
+            <div class="logo">
+                <img src="../acssets/images/images page/1fa838f533b627a8a59d955017825c650bcf3e36.png">
+            </div>
+        </div>
+
+        <!-- Right side - Login form -->
+        <div class="right-side">
+            <div class="form-container">
+                <!-- Mobile logo -->
+                <div class="mobile-logo">SAVE PULSE</div>
+
+                <div class="header">
+                   <h1 class="welcome-title">
+    Enter Verification Code
+                </h1>
+                    <p class="welcome-subtitle">We have just sent a verification code to jonathanadah11@gmail.com</p>
+                </div>
+
+                <form class="form" onsubmit="handleLogin(event)">
+                    
+                                    <!-- otp -->
+                  <div class="otp-container">
+    <input type="text" maxlength="1" class="otp-input" />
+    <input type="text" maxlength="1" class="otp-input" />
+    <input type="text" maxlength="1" class="otp-input" />
+    <input type="text" maxlength="1" class="otp-input" />
+</div>
+
+
+                    <!-- Login button -->
+                    <button type="button" class="login-btn" onclick="window.location.href='re-pass.html'">
+                        Verify
+                    </button>
+                     <!-- back Login button -->
+                   <a href="defaut-login.html" class="login-btn-back">
+                    Resend Code
+                </a>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Write New Review</title>
+  <link rel="stylesheet" href="/acssets/css/Write.css" />
+  <link rel="icon" type="image/png" href="../acssets/images/images page/1fa838f533b627a8a59d955017825c650bcf3e36.png">
+   <script src="/js/web.js"></script>
+</head>
+<body>
+
+  <header>
+    <img src="../acssets/images/images page/logo write/logo_1.png" alt="Travel Pulse" class="logo" />
+    <nav>
+      <a href="/other-pages/Destination.html">Destination</a>
+      <a href="/other-pages/Stories.html">Stories</a>
+      <a href="/other-pages/Review.html">Reviews</a>
+    </nav>
+    <div class="actions">
+      <button class="search"><img src="../acssets/images/images page/logo write/find.png" alt="Search"/></button>
+      <a href="/other-pages/sign-up.html">Sign Up</a>
+      <a href="/other-pages/defaut-login.html">
+  <button class="login">Login</button>
+</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Share your Travel Experience in<br>form of a story</h1>
+      <div class="search-box">
+        <input type="text" placeholder="What would you like to review?" />
+        <span class="search-icon"><img src="../acssets/images/images page/logo write/findblue.png" alt="Search"/></span>
+      </div>
+    </section>
+
+    <section class="form-section">
+      
+      <h2>Top places with reviews</h2>
+      <div class="write-review-container">
+        <div class="for"> <span>Travelers want to see more reviews of these places.</span></div>
+            <button class="write-review-btn">
+              
+                <img src="../acssets/images/images page/logo write/pen.png" alt="Write icon" class="icon">
+                Write New Review
+                
+            </button>
+        </div>
+      <div class="form-container">
+        <div class="image-upload">
+          <label for="fileInput">
+            <div class="upload-box">
+              <img src="../acssets/images/images page/logo write/camera.png" alt="Upload Icon" />
+            </div>
+          </label>
+          <input type="file" id="fileInput" hidden />
+        </div>
+
+        <form id="reviewForm">
+          <label>Title of your review</label>
+          <input type="text" placeholder="Summarize your Travel Journey" required />
+
+          <label>Your review</label>
+          <textarea placeholder="A detailed review of your Travel Journey. Travellers will love to know your experience." required></textarea>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Location</label>
+              <input type="text" placeholder="Enter Travel Location" required />
+            </div>
+
+            <div class="form-group">
+              <label>When did you travel?</label>
+              <select required>
+                <option value="">Select One</option>
+                <option>January 2025</option>
+                <option>February 2025</option>
+                <option>March 2025</option>
+                <!-- Add more -->
+              </select>
+            </div>
+          </div>
+
+          <div class="terms">
+            <input type="checkbox" required />
+            <small>
+              I certify that the information in this review is based solely on my own experiences with the product or service in question. I also attest that I have no personal or professional affiliation with the business in question and have not been given any incentives or payment from the business to write this review. I am aware that fake reviews are strictly prohibited on Tripadvisor.
+            </small>
+          </div>
+
+          <button type="submit">Submit Review</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="../acssets/images/images page/logo write/logo_2.png" alt="Travel Blog Logo" class="footer-logo" />
+    <p>&copy; 2025 Travel Pulse. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
