@@ -56,7 +56,7 @@ Live demo: [https://travel-web-bice-five.vercel.app/](https://travel-web-bice-fi
 ---
 ## 📬 Liên hệ
 
-* Tác giả/nhóm: *Travel Pulse*
+* Tác giả/nhóm: *Travel Pulse* : 2451052133kiet@ou.edu.vn
 * Live: [https://travel-web-bice-five.vercel.app/](https://travel-web-bice-five.vercel.app/)
 
 > Nếu bạn đang đọc file này trên GitHub, hãy ghé **Live Demo** để trải nghiệm đầy đủ giao diện.
